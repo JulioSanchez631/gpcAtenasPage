@@ -1,0 +1,11 @@
+.contenedor-informacion{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  font-size:16px;
+  padding:12px 20px;
+}
+
+.contenedor-informacion p{
+  line-height: 20px;
+}

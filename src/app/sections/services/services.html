@@ -1,0 +1,16 @@
+<section>
+  <h2>Nuestros servicios</h2>
+
+  <div class="contenedor-servicios">
+    
+    @for(item of serviciosActuales; track item.id){
+      <div class="item-servicio">
+        <img src="{{item.imgUrl}}" alt="imagen-servicio">
+        <h3>{{item.titulo}}</h3>
+        <p>{{item.descripcion}}</p>
+      </div>
+    }
+
+  </div>
+
+</section>

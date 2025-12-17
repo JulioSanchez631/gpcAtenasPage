@@ -1,0 +1,32 @@
+section#home{
+  height: 90dvh;
+  position:relative;
+  width: 100%;
+}
+
+section#home h1{
+  font-size:1.4rem;
+  line-height: 2.8rem;
+  position:absolute;
+  min-width: 80%;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  color:var(--color-3);
+  text-align: center;
+  text-shadow:6px 6px 12px var(--color-1);
+}
+
+section#home img{
+  height: 100%;
+  object-fit: cover;
+  filter:brightness(30%);
+}
+
+@media screen and (min-width: 800px){
+
+  section#home h1{
+    font-size:1.8rem;
+  }
+
+}

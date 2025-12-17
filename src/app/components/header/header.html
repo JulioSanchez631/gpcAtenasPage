@@ -1,0 +1,13 @@
+<header>
+
+  <img src="img/imgLogo.webp" alt="logotipo">
+
+  <mat-icon (click)="cambioMenu()" [class.abierto]="estadoMenu">menu</mat-icon>
+
+  <nav [class.activo]='estadoMenu'>
+    <a routerLink="/" fragment="home" (click)="cerrarMenu()">Inicio</a>
+    <a routerLink="/" fragment="services" (click)="cerrarMenu()">Servicios</a>
+    <a routerLink="/" fragment="contact" (click)="cerrarMenu()">Contacto</a>
+  </nav>
+
+</header>

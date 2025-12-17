@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --color-1:#3257a6;
+  --color-2:#3257a6;
+  --color-3:white;
+  --color-4:#de9c21;
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+img{
+  width: 100%;
+}
