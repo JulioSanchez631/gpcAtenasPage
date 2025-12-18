@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { Service } from '../../services/service';
 import { Servicio } from '../../services/service';
+import { MatCardModule } from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-services',
-  imports: [],
+  imports: [MatCardModule,MatButtonModule],
   templateUrl: './services.html',
   styleUrl: './services.css',
 })
